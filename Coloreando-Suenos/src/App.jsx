@@ -9,7 +9,6 @@ function App() {
         <a href="/about">Acerca</a> |{" "}
         <a href="/users">Usuarios</a> | {" "}
       </nav>
-      <hr />
       <AppRoutes />
     </BrowserRouter>
   )

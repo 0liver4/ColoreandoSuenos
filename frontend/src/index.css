@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Darling;
+  src: url("./assets/fonts/DarlingCoffee.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+    --font-Darling: Darling, sans-serif;
+}

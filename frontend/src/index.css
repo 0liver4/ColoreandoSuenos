@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Importacion de la tipografia local*/
 @font-face {
   font-family: Darling;
   src: url("./assets/fonts/DarlingCoffee.ttf") format('truetype');
@@ -8,6 +9,9 @@
   font-display: swap;
 }
 
+/* Construccion a de la clase a llamar en tailwind usando className */
 @theme {
     --font-Darling: Darling, sans-serif;
 }
+
+/* <nav className="font-Darling"> */

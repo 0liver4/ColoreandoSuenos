@@ -19,7 +19,7 @@ function App() {
           <div className="max-w-[200px] md:max-w-[376px]">
             <img className="w-full" src={logo} alt="Logo" />
           </div>
-          <nav className="hidden md:flex justify-end font-Darling space-x-10 text-2xl">
+          <nav className="hidden md:flex justify-end font-Darling space-x-10 text-2xl mr-10">
             <a href="/" className="hover:text-gray-600 transition-colors">Inicio</a>
             <a href="/about" className="hover:text-gray-600 transition-colors">Sobre Nosotros</a>
             <a href="/users" className="hover:text-gray-600 transition-colors">Inscripciones</a>
@@ -37,7 +37,6 @@ function App() {
         </div>
       </div>
 
-      {/* Menu móvil desplegable */}
       <div className={`md:hidden absolute top-20 left-0 w-full bg-white shadow-lg z-50 transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
         <nav className="flex flex-col font-Darling text-xl">
           <a

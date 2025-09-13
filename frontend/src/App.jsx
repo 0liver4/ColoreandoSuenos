@@ -6,6 +6,7 @@ import { useState } from "react"
 
 function App() {
 
+  //useState para identificar si el boton ha sido pulsado o no 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,7 +16,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative">
+
+      {/* Navbar */}
         <div className="h-20 flex items-center justify-between drop-shadow-xl shadow-lg bg-white px-5">
+          {/* Imagen del logo */}
           <div className="max-w-[200px] md:max-w-[376px]">
             <img className="w-full" src={logo} alt="Logo" />
           </div>
@@ -26,6 +30,7 @@ function App() {
             <a href="/services" className="hover:text-gray-600 transition-colors">Servicios</a>
           </nav>
 
+          {/* Botón del menú hamburguesa cuando se despliega en pantallas pequeñas */}
           <button
             onClick={toggleMenu}
             className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5"

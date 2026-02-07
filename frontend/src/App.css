@@ -9,6 +9,7 @@ luego se agrega al @theme, donde lo primero es el nombre con el que aparece la c
     --font-DarlingCoffee: 'DarlingCoffee', sans-serif;
     --font-DarlingCoffee_Bold: 'DarlingCoffee_Bold', sans-serif;
     --font-Poppins: 'Poppins', sans-serif;
+    --font-Poppins_Bold: 'Poppins_Bold', sans-serif;
     /* Esto crea la clase 'font-display' */
 }
 
@@ -29,6 +30,13 @@ luego se agrega al @theme, donde lo primero es el nombre con el que aparece la c
 @font-face {
     font-family: 'Poppins';
     src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins_bold';
+    src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: bold;
 }

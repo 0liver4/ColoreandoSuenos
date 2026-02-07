@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/*Para añadir un font personalizado se añade primero un font-face junto a sus propiedades,
+luego se agrega al @theme, donde lo primero es el nombre con el que aparece la clase
+*/
+
+@theme {
+    --font-DarlingCoffee: 'DarlingCoffee', sans-serif;
+    --font-DarlingCoffee_Bold: 'DarlingCoffee_Bold', sans-serif;
+    --font-Poppins: 'Poppins', sans-serif;
+    /* Esto crea la clase 'font-display' */
+}
+
+@font-face {
+    font-family: 'DarlingCoffee';
+    src: url('./assets/fonts/darling_coffee/Darling\ Coffee.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DarlingCoffee_Bold';
+    src: url('./assets/fonts/darling_coffee/Darling\ Coffee.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}

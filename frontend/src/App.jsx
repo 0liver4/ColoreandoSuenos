@@ -3,6 +3,7 @@ import AboutUs from './components/aboutus/aboutUs';
 import Header from "./components/header/header";
 import Hero from './components/hero/hero';
 import OurServices from './components/OurServices/OurServices';
+import ProgramTea from './components/programs/programTEA';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <OurServices />
       <AboutUs />
+      <ProgramTea />
     </>
   )
 }

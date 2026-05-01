@@ -10,7 +10,7 @@ import Check from "../../assets/images/AboutUs/Check.webp";
 
 function AboutUs() {
     return (
-        <div className="relative h-screen pt-10 bg-[#AEB7BF1A]">
+        <div className="relative min-h-screen pt-10 bg-[#AEB7BF1A]">
             {/* Contenido principal */}
             <div className="flex flex-col gap-6 ml-10 mt-10 pb-16">
                 {/*Contenido*/}
